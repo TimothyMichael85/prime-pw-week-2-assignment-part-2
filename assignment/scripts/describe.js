@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string
+// We check if the name is equal to Mary. No. It is equal to Dane
+// Because the name is something other than Mary it will not read 'Hi, Mary!' so
+// We console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret. We then make a variable called code and set it to 123 as a number
+// We check if code is equal to 123. It is. secret is equal to 'super'. code is then multiplied by 2
+// We check value of multiplied code. 123 multiplied by 2 is equal to 246. Since code is less than 250 secret will NOT equal 'duper'
+// We console.log 'secret'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make variables called isStudent set to true as a boolean, age set to 34 as a number, and zip set to 55407 as a number
+// We check if isStudent is equal to true. Yes. AND is zip greater than 8000. No. Because BOTH critera is not met, console.log will NOT read 'You're a student on the West Coast!'
+// We check if isStudent is equal to true. No. OR if age is less than 30. No. Because NEITHER critera is met, console.log will NOT read 'What are your hobbies?'
+// We check if isStudent is equal to true. Yes. Criteria met. console.log WILL read 'Welcome to Prime!'
+// Had we checked and no other conditions were met (not true in this case), console.log WOULD HAVE read 'How about the weather?'
+// We console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,12 +132,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne and colorTwo are reversed from description
+// Should be let colorOne = 'blue' and let colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-if (mix === true) {
-  colorOne = 'purple';
+// FIX - colorTwo not changed by mix
+// Should be colorOne = 'purple' AND colorTwo = 'purple'
+
+colorOne = 'purple';
 }
 */
 
@@ -146,6 +153,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+
+// FIX- Conditional Statement is written with or syntax rather than and
+// Should be if (temp > 39 && time >= 4)
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -160,10 +170,17 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX- minAge is less than or equal to age
+// Should be...
+// if(minAge >= age) {
+//   console.log('enter');
+// } else {
+//   console.log('no entry');
+// }
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
